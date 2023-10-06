@@ -56,14 +56,6 @@ const handlers = {
             return `不完整的命令`;
         }
     },
-
-    翻译:(args)=> {
-        if (args.length > 0) {
-            return translate(args[0]);
-        } else {
-            return `不完整的命令`;
-        }
-    },
 };
 
 
